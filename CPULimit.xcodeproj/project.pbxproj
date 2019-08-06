@@ -10,6 +10,14 @@
 		3209377822F9545D000E1A07 /* CPULimit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3209376E22F9545D000E1A07 /* CPULimit.framework */; };
 		3209377D22F9545D000E1A07 /* CPULimitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3209377C22F9545D000E1A07 /* CPULimitTests.m */; };
 		3209377F22F9545D000E1A07 /* CPULimit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3209377122F9545D000E1A07 /* CPULimit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3209379022F95508000E1A07 /* subroutines.h in Headers */ = {isa = PBXBuildFile; fileRef = 3209378822F95508000E1A07 /* subroutines.h */; };
+		3209379122F95508000E1A07 /* selfprofile.h in Headers */ = {isa = PBXBuildFile; fileRef = 3209378922F95508000E1A07 /* selfprofile.h */; };
+		3209379222F95508000E1A07 /* subroutines.c in Sources */ = {isa = PBXBuildFile; fileRef = 3209378A22F95508000E1A07 /* subroutines.c */; };
+		3209379322F95508000E1A07 /* app_inspector_c.c in Sources */ = {isa = PBXBuildFile; fileRef = 3209378B22F95508000E1A07 /* app_inspector_c.c */; };
+		3209379422F95508000E1A07 /* selfprofile.c in Sources */ = {isa = PBXBuildFile; fileRef = 3209378C22F95508000E1A07 /* selfprofile.c */; };
+		3209379522F95508000E1A07 /* app_inspector_c.h in Headers */ = {isa = PBXBuildFile; fileRef = 3209378D22F95508000E1A07 /* app_inspector_c.h */; };
+		3209379622F95508000E1A07 /* proc_cpulim.c in Sources */ = {isa = PBXBuildFile; fileRef = 3209378E22F95508000E1A07 /* proc_cpulim.c */; };
+		3209379722F95508000E1A07 /* proc_cpulim.h in Headers */ = {isa = PBXBuildFile; fileRef = 3209378F22F95508000E1A07 /* proc_cpulim.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +37,14 @@
 		3209377722F9545D000E1A07 /* CPULimitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CPULimitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3209377C22F9545D000E1A07 /* CPULimitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPULimitTests.m; sourceTree = "<group>"; };
 		3209377E22F9545D000E1A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3209378822F95508000E1A07 /* subroutines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subroutines.h; sourceTree = "<group>"; };
+		3209378922F95508000E1A07 /* selfprofile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = selfprofile.h; sourceTree = "<group>"; };
+		3209378A22F95508000E1A07 /* subroutines.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = subroutines.c; sourceTree = "<group>"; };
+		3209378B22F95508000E1A07 /* app_inspector_c.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = app_inspector_c.c; sourceTree = "<group>"; };
+		3209378C22F95508000E1A07 /* selfprofile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = selfprofile.c; sourceTree = "<group>"; };
+		3209378D22F95508000E1A07 /* app_inspector_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = app_inspector_c.h; sourceTree = "<group>"; };
+		3209378E22F95508000E1A07 /* proc_cpulim.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = proc_cpulim.c; sourceTree = "<group>"; };
+		3209378F22F95508000E1A07 /* proc_cpulim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proc_cpulim.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +87,14 @@
 		3209377022F9545D000E1A07 /* CPULimit */ = {
 			isa = PBXGroup;
 			children = (
+				3209378B22F95508000E1A07 /* app_inspector_c.c */,
+				3209378D22F95508000E1A07 /* app_inspector_c.h */,
+				3209378E22F95508000E1A07 /* proc_cpulim.c */,
+				3209378F22F95508000E1A07 /* proc_cpulim.h */,
+				3209378C22F95508000E1A07 /* selfprofile.c */,
+				3209378922F95508000E1A07 /* selfprofile.h */,
+				3209378A22F95508000E1A07 /* subroutines.c */,
+				3209378822F95508000E1A07 /* subroutines.h */,
 				3209377122F9545D000E1A07 /* CPULimit.h */,
 				3209377222F9545D000E1A07 /* Info.plist */,
 			);
@@ -93,6 +117,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3209379722F95508000E1A07 /* proc_cpulim.h in Headers */,
+				3209379522F95508000E1A07 /* app_inspector_c.h in Headers */,
+				3209379022F95508000E1A07 /* subroutines.h in Headers */,
+				3209379122F95508000E1A07 /* selfprofile.h in Headers */,
 				3209377F22F9545D000E1A07 /* CPULimit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3209379222F95508000E1A07 /* subroutines.c in Sources */,
+				3209379422F95508000E1A07 /* selfprofile.c in Sources */,
+				3209379322F95508000E1A07 /* app_inspector_c.c in Sources */,
+				3209379622F95508000E1A07 /* proc_cpulim.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +383,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sohunjug.CPULimit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -376,6 +409,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sohunjug.CPULimit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
