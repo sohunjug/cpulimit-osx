@@ -10,14 +10,14 @@
 		3209377822F9545D000E1A07 /* CPULimit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3209376E22F9545D000E1A07 /* CPULimit.framework */; };
 		3209377D22F9545D000E1A07 /* CPULimitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3209377C22F9545D000E1A07 /* CPULimitTests.m */; };
 		3209377F22F9545D000E1A07 /* CPULimit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3209377122F9545D000E1A07 /* CPULimit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3209379022F95508000E1A07 /* subroutines.h in Headers */ = {isa = PBXBuildFile; fileRef = 3209378822F95508000E1A07 /* subroutines.h */; };
-		3209379122F95508000E1A07 /* selfprofile.h in Headers */ = {isa = PBXBuildFile; fileRef = 3209378922F95508000E1A07 /* selfprofile.h */; };
+		3209379022F95508000E1A07 /* subroutines.h in Headers */ = {isa = PBXBuildFile; fileRef = 3209378822F95508000E1A07 /* subroutines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3209379122F95508000E1A07 /* selfprofile.h in Headers */ = {isa = PBXBuildFile; fileRef = 3209378922F95508000E1A07 /* selfprofile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3209379222F95508000E1A07 /* subroutines.c in Sources */ = {isa = PBXBuildFile; fileRef = 3209378A22F95508000E1A07 /* subroutines.c */; };
 		3209379322F95508000E1A07 /* app_inspector_c.c in Sources */ = {isa = PBXBuildFile; fileRef = 3209378B22F95508000E1A07 /* app_inspector_c.c */; };
 		3209379422F95508000E1A07 /* selfprofile.c in Sources */ = {isa = PBXBuildFile; fileRef = 3209378C22F95508000E1A07 /* selfprofile.c */; };
-		3209379522F95508000E1A07 /* app_inspector_c.h in Headers */ = {isa = PBXBuildFile; fileRef = 3209378D22F95508000E1A07 /* app_inspector_c.h */; };
+		3209379522F95508000E1A07 /* app_inspector_c.h in Headers */ = {isa = PBXBuildFile; fileRef = 3209378D22F95508000E1A07 /* app_inspector_c.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3209379622F95508000E1A07 /* proc_cpulim.c in Sources */ = {isa = PBXBuildFile; fileRef = 3209378E22F95508000E1A07 /* proc_cpulim.c */; };
-		3209379722F95508000E1A07 /* proc_cpulim.h in Headers */ = {isa = PBXBuildFile; fileRef = 3209378F22F95508000E1A07 /* proc_cpulim.h */; };
+		3209379722F95508000E1A07 /* proc_cpulim.h in Headers */ = {isa = PBXBuildFile; fileRef = 3209378F22F95508000E1A07 /* proc_cpulim.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -383,7 +383,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sohunjug.CPULimit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -409,7 +409,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sohunjug.CPULimit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
